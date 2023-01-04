@@ -9,9 +9,13 @@ body {
     height: 74px;
     padding: 18px 16px;
     box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-.header .container {
+.header .container {    
     display: flex;
     justify-content: space-between;
     align-items: center;
